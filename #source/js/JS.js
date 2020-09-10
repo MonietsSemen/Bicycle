@@ -17,3 +17,16 @@ $(document).ready(function() {
 		$('body').toggleClass('lock');
 	});
 });
+//---Слайдер--------------------------
+$(document).ready(function(){
+	$('.slider__body').slick({
+		arrows:true,
+		dots: true,
+		adaptiveHeight: true,
+		slidesToShow:3,
+		slidesToScroll:2,
+		speed: 1000,
+		autoplay:true,
+		autoplaySpeed: 500,
+	});
+}); 
